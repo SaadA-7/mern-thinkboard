@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import {PlusIcon} from "lucide-react";
+import { PlusIcon } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -16,6 +16,6 @@ const Navbar = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 export default Navbar;
