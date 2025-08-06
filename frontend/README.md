@@ -75,7 +75,7 @@ npm run dev
 ```
 
 ---
-##🎨 Features Showcase
+🎨 Features Showcase
  - Clean Interface - Intuitive note management with a coffee-themed design
  - Real-time Updates - Instant feedback with toast notifications
  - Responsive Layout - Works perfectly on desktop, tablet, and mobile
