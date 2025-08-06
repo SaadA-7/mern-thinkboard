@@ -2,6 +2,13 @@
 
 A modern, full-stack note-taking application built with the MERN stack. Create, organize, and manage your thoughts with a clean, responsive interface.
 
+Link to app:
+
+```
+https://mern-thinkboard-nzgr.onrender.com/
+
+```
+
 ---
 
 ## ✨ Key Features
