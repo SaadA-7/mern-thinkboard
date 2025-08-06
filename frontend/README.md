@@ -47,40 +47,43 @@ A modern, full-stack note-taking application built with the MERN stack. Create, 
 
 Create a `.env` file in the `/backend` directory with the following contents:
 
-```env
-MONGO_URI=<your_mongodb_connection_string>
-UPSTASH_REDIS_REST_URL=<your_upstash_redis_url>
-UPSTASH_REDIS_REST_TOKEN=<your_upstash_redis_token>
-NODE_ENV=development
+### Backend (`/backend`)
 
-🖥️ Run the Backend
+```
+MONGO_URI=<your_mongo_uri>
+
+UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
+UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
+
+NODE_ENV=development
+```
+
+## 🔧 Run the Backend
+
+```
 cd backend
 npm install
 npm run dev
-The backend server will start on http://localhost:5001
+```
 
-💻 Run the Frontend
+## 💻 Run the Frontend
+
+```
 cd frontend
 npm install
 npm run dev
-The frontend will start on http://localhost:5173
+```
 
-🎨 Features Showcase
-Clean Interface - Intuitive note management with a coffee-themed design
-
-Real-time Updates - Instant feedback with toast notifications
-
-Responsive Layout - Works perfectly on desktop, tablet, and mobile
-
-Professional Styling - Modern UI with subtle effects and smooth transitions
+---
+##🎨 Features Showcase
+ - Clean Interface - Intuitive note management with a coffee-themed design
+ - Real-time Updates - Instant feedback with toast notifications
+ - Responsive Layout - Works perfectly on desktop, tablet, and mobile
+ - Professional Styling - Modern UI with subtle effects and smooth transitions
 
 🚀 Deployment
-This application is deployment-ready with:
-
-Environment variable configuration
-
-Production build scripts
-
-CORS properly configured
-
-Rate limiting for security
+ - This application is deployment-ready with:
+ - Environment variable configuration
+ - Production build scripts
+ - CORS properly configured
+ - Rate limiting for security
